@@ -39,9 +39,16 @@ console.log(prezzoInBaseAiKmPercorsi);
 const under18 = (`< 18`);
 console.log(under18);
 
+const percentualeMinima = (`20%`);
+console.log(percentualeMinima);
+
+
 // va applicato uno sconto del 40% per gli over 65.
 
 const over65 = (`> 65`);
 console.log(over65);
+
+const percentualeMassima = (`40%`);
+console.log(percentualeMassima);
 
 // Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio
