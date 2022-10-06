@@ -20,16 +20,18 @@
 
 // e l'età del passeggero.
 
-const currentAge = prompt(`Quanti anni hai?`)
+const currentAge = prompt(`Quanti anni hai?`);
 console.log(currentAge);
 
 
 
 // il prezzo del biglietto è definito in base ai km (0.21 € al km)
 
-const prezzoInBaseAiKm = (`0.21`)
-console.log(prezzoInBaseAiKm);
+const tariffaInBaseAiKm = (`0.21`);
+console.log(tariffaInBaseAiKm);
 
+const prezzoInBaseAiKmPercorsi = `chilometriDaPercorrere` + `tariffaInBaseAiKm`;
+console.log(prezzoInBaseAiKmPercorsi);
 
 
 // va applicato uno sconto del 20% per i minorenni
